@@ -1,0 +1,436 @@
+/**
+ *
+ * -----------------------------------------------------------
+ *
+ * Codestar Framework
+ * A Lightweight and easy-to-use WordPress Options Framework
+ *
+ * Copyright 2015 Codestar <info@codestarlive.com>
+ *
+ * -----------------------------------------------------------
+ *
+ */
+@import "compass";
+@import "vendor/mixins";
+
+//
+// Prefix
+//
+.csf{
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+//
+// Header
+//
+.codevz-header{
+  h1{
+    float: right;
+  }
+
+  fieldset{
+    float: left;
+  }
+}
+
+//
+// Header and Footer Buttons
+//
+.codevz-buttons{
+  float: left;
+}
+
+//
+// Header Helpers
+//
+.codevz-header-left{
+  float: right;
+}
+
+.codevz-header-right{
+  float: left;
+}
+
+//
+// Navigation
+//
+.codevz-nav{
+  float: right;
+
+  ul{
+    clear: right;
+
+    li{
+      .codevz-section-active:after{
+        right: auto;
+        left: 0;
+        border-left-color: #fff;
+        border-right-color: transparent;
+      }
+
+      .codevz-arrow:after{
+        content: "\f053";
+        right: auto;
+        left: 10px;
+      }
+
+      &.codevz-tab-active .codevz-arrow:after{
+        @include transform( rotate(-90deg) );
+      }
+    }
+
+    ul{
+      li{
+        a{
+          padding-right: 25px;
+          padding-left: 15px;
+        }
+      }
+
+      &:before{
+        left: auto;
+        right: 15px;
+      }
+    }
+  }
+
+  .fa{
+    margin-left: 5px;
+    margin-right: 0;
+  }
+}
+
+//
+// Navigation Background
+//
+.codevz-nav-background{
+  left: auto;
+  right: 0;
+}
+
+//
+// Content
+//
+.codevz-content{
+  margin-left: 0;
+  margin-right: 225px;
+}
+
+//
+// Sections
+//
+.codevz-sections{
+  float: right;
+}
+
+//
+// Show all options
+//
+.codevz-show-all .codevz-content {
+  margin-right: 0;
+  overflow: hidden;
+}
+
+.codevz-expand-all {
+  right: auto;
+  left: 40px;
+}
+
+//
+// Search
+//
+.codevz-search{
+
+  input{
+    margin: 0 10px 0 0;
+  }
+}
+
+//
+// Copyright
+//
+.codevz-copyright{
+  float: right;
+}
+
+//
+// Metabox
+//
+.codevz-metabox{
+  margin: -6px -12px -12px -12px;
+
+  .codevz-section-title{
+    padding: 20px;
+  }
+}
+
+//
+// Field
+//
+.codevz-field{
+
+  .codevz-title{
+    float: right;
+  }
+
+  .codevz-fieldset{
+    margin-left: 0;
+    margin-right: 30%;
+  }
+}
+
+//
+// Field Pseudo
+//
+.codevz-pseudo-field{
+  padding: 0 0 0 5px !important;
+}
+
+//
+// Field: Number
+//
+.codevz-field-number{
+
+  em{
+    margin-left: 0;
+    margin-right: 5px;
+  }
+}
+
+//
+// Field: Typography
+//
+.codevz-field-typography{
+
+  select,
+  .chosen-container{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+
+//
+// Field: Checkbox and Radio
+//
+.codevz-field-checkbox,
+.codevz-field-radio{
+
+  .horizontal li{
+    margin-right: 0;
+    margin-left: 15px;
+  }
+}
+
+//
+// Field: Switcher
+//
+.codevz-field-switcher{
+
+  label{
+    float: right;
+  }
+
+  .codevz-text-desc{
+    float: right;
+    margin-left: 0;
+    margin-right: 5px;
+  }
+}
+
+//
+// Field: Upload
+//
+.codevz-field-upload{
+  .codevz-button{
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
+
+//
+// Field: Color Picker
+//
+.codevz-field-color_picker{
+
+  .codevz-alpha-slider{
+    margin-left: 0;
+    margin-right: 2px;
+
+    .ui-slider-handle{
+      margin: 0 -11px;
+    }
+  }
+
+  .codevz-alpha-slider-offset{
+    background-position: center right;
+  }
+
+  .codevz-alpha-text{
+    right: auto;
+    left: 10px;
+  }
+}
+
+//
+// Field: Group
+//
+.codevz-field-group{
+
+  .codevz-cloneable-title{
+    padding: 15px 10px 15px 65px;
+  }
+
+  .codevz-cloneable-helper{
+    right: auto;
+    left: 10px;
+  }
+}
+
+//
+// Field: Repeater
+//
+.codevz-field-repeater{
+
+  .codevz-cloneable-helper{
+    border-left: 0;
+    border-right: 1px solid #eee;
+  }
+}
+
+//
+// Field: Help
+//
+.codevz-help{
+  right: auto;
+  left: 5px;
+}
+
+//
+// Field: Icon
+//
+.codevz-field-icon{
+
+  .button{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .codevz-icon-preview i{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+
+//
+// Field: Gallery
+//
+.codevz-field-gallery{
+
+  ul li{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+
+  .button{
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+
+//
+// Field: Sorter
+//
+.codevz-field-sorter{
+
+  .codevz-modules{
+    float: right;
+  }
+
+  .codevz-disabled{
+    margin-left: 0;
+    margin-right: 15px;
+  }
+}
+
+//
+// Field: Tabbed
+//
+.codevz-field-tabbed{
+
+  .codevz-tabbed-nav{
+
+    .fa{
+      padding-right: 0;
+      padding-left: 5px;
+    }
+
+    a{
+      margin-right: 0;
+      margin-left: 5px;
+    }
+  }
+}
+
+//
+// Taxonomy UI
+//
+.codevz-taxonomy-add-fields{
+
+  .codevz-fieldset{
+    margin-right: 0;
+  }
+
+  .codevz-field > .codevz-fieldset > .codevz-help{
+    left: -5px;
+    right: auto;
+  }
+}
+
+.codevz-taxonomy-edit-fields{
+
+  .codevz-fieldset{
+    margin-left: 0;
+    margin-right: 225px;
+  }
+
+  .codevz-field > .codevz-fieldset > .codevz-help{
+    right: auto;
+    left: -5px;
+  }
+}
+
+//
+// Modal UI
+//
+.codevz-modal-content{
+
+  .codevz-field{
+    padding: 15px 15px 15px 30px;
+  }
+}
+
+.codevz-modal-title{
+  padding: 0 16px 0 36px;
+}
+
+.codevz-modal-close{
+  right: auto;
+  left: 0;
+}
+
+//
+// Responsive Utilities
+//
+@media only screen and (max-width:1200px){
+  .codevz-metabox .codevz-field .codevz-fieldset{
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width:782px){
+  .csf .codevz-fieldset,
+  .csf .codevz-content{
+    margin-right: 0;
+  }
+}

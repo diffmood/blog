@@ -1,0 +1,164 @@
+//
+// Customizer UI
+//
+.control-section{
+
+  .codevz-field{
+    padding: 0;
+
+    .codevz-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 10px;
+
+      h4{
+        font-size: 14px;
+        font-weight: 600;
+        color: inherit;
+      }
+    }
+
+    .codevz-fieldset{
+      margin-left: 0;
+    }
+  }
+
+  .widget-content{
+    .codevz-field{
+      margin-right: -10px;
+      margin-left: -10px;
+      padding: 10px 12px;
+    }
+  }
+
+  .codevz-field-select select{
+    width: 100%;
+  }
+
+  .codevz-field-heading{
+    color: inherit;
+    font-size: 14px;
+    line-height: 1em;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+
+  .codevz-field-subheading{
+    color: inherit;
+    font-size: 11px;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 10px 15px;
+  }
+
+  .codevz-text-desc{
+    margin-top: 4px;
+    font-size: 12px;
+  }
+
+  .codevz-field-content,
+  .codevz-field-notice .codevz-notice{
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 15px;
+  }
+
+  .codevz-fieldset{
+    .codevz-field-notice .codevz-notice,
+    .codevz-field-heading,
+    .codevz-field-subheading{
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .codevz-field-sorter{
+
+    ul li{
+      padding: 5px;
+    }
+
+    .codevz-modules{
+      float: none;
+      width: 100%;
+    }
+
+    .codevz-disabled{
+      margin-left: 0;
+      margin-top: 15px;
+    }
+  }
+
+  .codevz-field-background{
+
+    .codevz-field-upload{
+      width: 100%;
+
+      input{
+        width: 100%;
+        margin: 0;
+      }
+
+      a{
+        width: 100%;
+        text-align: center;
+        margin: 5px 1px;
+      }
+    }
+
+    .codevz-pseudo-field{
+      width: 100%;
+      padding: 0 0 5px 0 !important;
+    }
+
+    .codevz-field-color_picker{
+      top: 0;
+    }
+  }
+
+
+  .codevz-field-typography{
+    select,
+    .chosen-container{
+      width: 100% !important;
+      margin: 0 0 5px 0;
+    }
+  }
+
+  .codevz-field-fieldset{
+
+    .codevz-inner{
+      border-color: #e5e5e5;
+    }
+
+    .codevz-field{
+      padding: 10px;
+
+      .codevz-title{
+        margin-bottom: 5px;
+      }
+
+      h4{
+        font-size: 12px;
+      }
+    }
+  }
+
+  .codevz-field-group,
+  .codevz-field-tabbed,
+  .codevz-field-repeater{
+
+    .codevz-field{
+      padding: 5px;
+
+      .codevz-title{
+        margin-bottom: 5px;
+      }
+
+      h4{
+        font-size: 12px;
+      }
+    }
+  }
+}

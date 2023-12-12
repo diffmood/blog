@@ -1,0 +1,105 @@
+//
+// Responsive Utilities
+//
+@media only screen and (max-width:1200px){
+  .codevz-metabox{
+
+    .codevz-field{
+
+      .codevz-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .codevz-fieldset{
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:782px){
+
+  .codevz-header-inner{
+    text-align: center;
+
+    h1{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .codevz-search,
+  .codevz-header-right,
+  .codevz-header-left{
+    width: 100%;
+  }
+
+  .codevz-search{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .codevz-footer{
+    text-align: center;
+  }
+
+  .codevz-buttons{
+    float: none;
+  }
+
+  .codevz-copyright{
+    float: none;
+    margin-top: 10px;
+  }
+
+  .codevz-expand-all,
+  .codevz-nav-background,
+  .codevz-nav{
+    display: none;
+  }
+
+  .codevz-content{
+    margin-left: 0;
+  }
+
+  .codevz-section-title,
+  .codevz-section{
+    display: block !important;
+  }
+
+  .codevz-field{
+
+    .codevz-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .codevz-fieldset{
+      margin-left: 0;
+    }
+  }
+
+  .codevz-modal-inner{
+    width: 350px;
+    height: 380px;
+  }
+
+  .codevz-modal-content{
+    height: 282px;
+  }
+
+  .codevz-icon-dialog{
+
+    .codevz-modal-inner{
+      width: 305px;
+      height: 380px;
+    }
+
+    .codevz-modal-content{
+      height: 267px;
+    }
+  }
+}

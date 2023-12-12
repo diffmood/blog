@@ -1,0 +1,102 @@
+//
+// Taxonomy UI
+//
+.codevz-taxonomy{
+  margin: 0;
+
+  > .codevz-field{
+    border-top: 0;
+  }
+
+  > .codevz-field-heading{
+    font-size: 1.1em;
+    padding: 20px !important;
+    border: 1px solid #ddd;
+  }
+
+  > .codevz-field-subheading{
+    font-size: 12px;
+    padding: 15px !important;
+    border: 1px solid #ddd;
+  }
+
+  > .codevz-field-notice{
+
+    .codevz-notice{
+      padding: 15px;
+      border-left-width: 1px;
+      border-left-style: solid;
+      border-right-width: 1px;
+      border-right-style: solid;
+    }
+  }
+}
+
+
+.codevz-taxonomy-add-fields{
+
+  > .codevz-field{
+    padding: 8px 0;
+
+    > .codevz-title{
+      float: none;
+      width: 100%;
+      padding: 2px 2px 4px 0;
+
+      h4{
+        font-size: 12px;
+        font-weight: normal;
+      }
+    }
+
+    > .codevz-fieldset{
+      margin-left: 0;
+
+      > .codevz-help{
+        right: -5px;
+      }
+    }
+  }
+
+  + p.submit{
+    margin-top: 0;
+  }
+}
+
+.codevz-taxonomy-edit-fields{
+
+  > .codevz-field{
+    padding: 20px 0;
+
+    > .codevz-title{
+      width: 225px;
+
+      h4{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.3;
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+
+    > .codevz-fieldset{
+      margin-left: 225px;
+
+      > .codevz-help{
+        top: -5px;
+        right: -5px;
+      }
+    }
+  }
+
+  > .codevz-field-notice{
+    margin: 20px 0;
+  }
+
+  > .codevz-field-subheading,
+  > .codevz-field-heading{
+    margin: 20px 0;
+    border: 1px solid #ddd;
+  }
+}

@@ -1,0 +1,35 @@
+//
+// Widget UI
+//
+.widget-content{
+  .codevz-field{
+    position: relative;
+    top: -1px;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 12px 15px;
+
+    .codevz-field{
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .codevz-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    .codevz-fieldset{
+      margin-left: 0;
+    }
+  }
+
+  .codevz-field-text input{
+    width: 100%;
+  }
+
+  .codevz-field-notice .codevz-notice{
+    padding: 15px;
+  }
+}
